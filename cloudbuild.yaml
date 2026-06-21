@@ -1,0 +1,9 @@
+steps:
+  # Build the container image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/$PROJECT_ID/sales-pipeline', '.']
+  # Push the container image to GCR
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'gcr.io/$PROJECT_ID/sales-pipeline']
+images:
+  - 'gcr.io/$PROJECT_ID/sales-pipeline'

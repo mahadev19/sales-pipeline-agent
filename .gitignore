@@ -1,0 +1,12 @@
+venv/
+.env
+__pycache__/
+*.pyc
+data/chroma_db/
+data/crm.json
+data/metrics.json
+data/eval_log.jsonl
+agent_log.txt
+data/traces/
+*.egg-info/
+.DS_Store

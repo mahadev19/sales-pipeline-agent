@@ -1,0 +1,30 @@
+[2026-06-20T18:40:18.790871+00:00] Orchestrator | PIPELINE_START | companies=Notion
+[2026-06-20T18:40:18.790871+00:00] Orchestrator | COMPANY_START | company=Notion
+[2026-06-20T18:40:18.790871+00:00] Orchestrator | STAGE_RESEARCH_START | company=Notion
+[2026-06-20T18:40:18.790871+00:00] LeadResearcher | AGENT_RUN_START | company=Notion
+[2026-06-20T18:40:22.805009+00:00] WebSearchTool | TOOL_CALL | query=What does Notion do and who are its target custome, results=3
+[2026-06-20T18:40:26.055989+00:00] WebSearchTool | TOOL_CALL | query=Notion company overview products target customers, results=3
+[2026-06-20T18:40:29.982487+00:00] WebSearchTool | TOOL_CALL | query=Notion company size headcount funding revenue, results=3
+[2026-06-20T18:40:37.812904+00:00] LeadResearcher | AGENT_RUN_SUCCESS | company=Notion, mode=live
+[2026-06-20T18:40:37.818532+00:00] Orchestrator | STAGE_RESEARCH_SUCCESS | company=Notion, mode=live, pain_points=5
+[2026-06-20T18:40:37.819527+00:00] Orchestrator | STAGE_SCORE_START | company=Notion
+[2026-06-20T18:40:37.820063+00:00] LeadScorer | PROGRAMMATIC_SCORE_START | company=Notion
+[2026-06-20T18:40:37.820063+00:00] LeadScorer | PROGRAMMATIC_SCORE_SUCCESS | company=Notion, score=80, tier=Hot
+[2026-06-20T18:40:37.822725+00:00] Orchestrator | STAGE_SCORE_SUCCESS | company=Notion, score=80, tier=Hot
+[2026-06-20T18:40:37.823257+00:00] Orchestrator | STAGE_DRAFT_START | company=Notion, mode=template
+[2026-06-20T18:40:37.823257+00:00] OutreachDrafter | TEMPLATE_DRAFT_START | company=Notion
+[2026-06-20T18:40:37.823257+00:00] OutreachDrafter | TEMPLATE_DRAFT_SUCCESS | company=Notion, words=76, chars=229
+[2026-06-20T18:40:37.823257+00:00] Orchestrator | STAGE_DRAFT_SUCCESS | company=Notion, mode=template, words=76, chars=229
+[2026-06-20T18:40:37.823257+00:00] Orchestrator | STAGE_PERSIST_START | company=Notion, use_crm=True
+[2026-06-20T18:40:37.862875+00:00] Orchestrator | STAGE_PERSIST_SUCCESS | company=Notion, lead_id=lead_004, status=contacted
+[2026-06-20T18:40:37.862875+00:00] Orchestrator | COMPANY_END | company=Notion, status=SUCCESS, score=80
+[2026-06-20T18:40:37.921869+00:00] Orchestrator | PIPELINE_END | processed=1, exit_code=0
+[2026-06-20T18:43:05.165876+00:00] Orchestrator | INPUT_VALIDATION_FAILED | input=Stripe<script>, error=Company name contains invalid control characters or HTML tags.
+[2026-06-20T18:43:20.359954+00:00] Orchestrator | RATE_LIMIT_EXCEEDED | requested=11
+[2026-06-20T19:44:13.614367+00:00] Orchestrator | STAGE_RESEARCH_START | company=Figma
+[2026-06-20T19:44:13.614367+00:00] LeadResearcher | AGENT_RUN_START | company=Figma
+[2026-06-20T19:44:18.001923+00:00] LeadResearcher | QUOTA_EXHAUSTED_FALLBACK | company=Figma, error=RESOURCE_EXHAUSTED
+[2026-06-20T19:44:18.005118+00:00] LeadResearcher | DUCKDUCKGO_FREE_SEARCH | company=Figma
+[2026-06-20T19:44:20.198273+00:00] LeadScorer | PROGRAMMATIC_SCORE_SUCCESS | company=Figma, score=69, tier=Warm
+[2026-06-20T19:44:20.198273+00:00] OutreachDrafter | TEMPLATE_DRAFT_SUCCESS | company=Figma, words=51, chars=201
+[2026-06-20T19:44:20.252046+00:00] Orchestrator | STAGE_PERSIST_SUCCESS | company=Figma, lead_id=lead_008, status=contacted
