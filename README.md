@@ -243,10 +243,10 @@ Open your browser at **http://localhost:8501**
 | 🧠 **Memory Explorer** | Browse all leads stored in ChromaDB and run semantic similarity search to find past leads with similar pain points or industry context. |
 
 ### Screenshot
-> Run `streamlit run app.py` and navigate to each page to explore the dashboard.
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/9eee7998-b931-4a71-bf45-0ca261f9a63d" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/8493d873-bd5b-4eda-91c7-39b70c6eb043" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/3cb70729-da3e-48ce-b730-d64eef342440" />
 
 ---
 
-## Live Demo
-https://sales-pipeline-agent-xxxx.run.app
 
