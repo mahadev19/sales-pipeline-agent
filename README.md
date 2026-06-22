@@ -1,6 +1,6 @@
 # Sales Pipeline Agent 🚀
 An End-to-End Autonomous AI Sales Development Representative (SDR) Pipeline Powered by Google ADK & FastMCP.
-
+ 
 ---
 
 ## 📌 Problem Statement
