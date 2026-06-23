@@ -1,8 +1,26 @@
 # Sales Pipeline Agent 🚀
 An End-to-End Autonomous AI Sales Development Representative (SDR) Pipeline Powered by Google ADK & FastMCP.
-🎥 Demo Video: https://youtu.be/bjvdqI9NLgs?si=9ZPMSDmOnYY8Hn4W
-📂 GitHub: https://github.com/mahadev19
-🏆 Kaggle Submission: https://www.kaggle.com/competitions/vibecoding-agents-capstone-project/writeups/sales-pipeline-agent-ai-powered-b2b-prospecting
+# 🚀 Sales Pipeline Agent
+
+> AI-powered B2B sales pipeline built with Google ADK + FastMCP
+
+[![Python](https://img.shields.io/badge/Python-3.11-blue)](https://python.org)
+[![Google ADK](https://img.shields.io/badge/Google-ADK-orange)](https://google.github.io/adk-docs)
+[![FastMCP](https://img.shields.io/badge/FastMCP-MCP%20Server-green)](https://github.com/jlowin/fastmcp)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)](https://streamlit.io)
+[![Kaggle](https://img.shields.io/badge/Kaggle-Competition-20BEFF)](https://kaggle.com)
+
+---
+
+## 🔗 Links
+
+| | |
+|---|---|
+| 🎥 **Demo Video** | https://youtu.be/bjvdqI9NLgs?si=9ZPMSDmOnYY8Hn4W |
+| 📂 **GitHub** | https://github.com/mahadev19 |
+| 🏆 **Kaggle Writeup** | https://www.kaggle.com/competitions/vibecoding-agents-capstone-project/writeups/sales-pipeline-agent-ai-powered-b2b-prospecting |
+
+---
 ---
 
 ## 📌 Problem Statement
