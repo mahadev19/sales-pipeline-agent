@@ -1,6 +1,8 @@
 # Sales Pipeline Agent 🚀
 An End-to-End Autonomous AI Sales Development Representative (SDR) Pipeline Powered by Google ADK & FastMCP.
- 
+🎥 Demo Video: https://youtu.be/bjvdqI9NLgs?si=9ZPMSDmOnYY8Hn4W
+📂 GitHub: https://github.com/mahadev19
+🏆 Kaggle Submission: https://www.kaggle.com/competitions/vibecoding-agents-capstone-project/writeups/sales-pipeline-agent-ai-powered-b2b-prospecting
 ---
 
 ## 📌 Problem Statement
